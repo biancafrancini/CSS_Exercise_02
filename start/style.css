@@ -7,7 +7,7 @@ body {
 .container-sidebar {
   width: 200px;
   height: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   background-color: pink;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,6 @@ body {
 
 .sidebar-text {
   display: flex;
-  height: 70%;
 }
 
 .sidebar-text > img {
